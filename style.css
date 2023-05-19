@@ -1,0 +1,18 @@
+@import 'UTF-8';
+
+table{
+    width: 200px;
+    height: 70px;
+    border-collapse: collapse;
+}
+
+td,th{
+    border: 1px solid black;
+    padding: 6px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.nota{
+    text-align: center;
+}
