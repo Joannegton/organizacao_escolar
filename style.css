@@ -4,6 +4,7 @@ table{
     width: 200px;
     height: 70px;
     border-collapse: collapse;
+    position: relative;
 }
 
 caption{
@@ -22,4 +23,13 @@ td,th{
 
 .nota{
     text-align: center;
+}
+tbody > tr:nth-child(odd){
+    background-color: aqua;
+}
+
+tbody > tr > th{
+    position: sticky;
+    top: 0;
+    background-color: black;
 }
